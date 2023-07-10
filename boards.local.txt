@@ -39,6 +39,8 @@ epdiy_v6.menu.DisplayType.ed047tc1=ED047TC1 (LILYGO 4.7 inch)
 epdiy_v6.menu.DisplayType.ed047tc1.build.defines=-DCONFIG_EPD_DISPLAY_TYPE_ED047TC1 -DBOARD_HAS_PSRAM -mfix-esp32-psram-cache-issue -DCONFIG_EPD_BOARD_REVISION_V6
 epdiy_v6.menu.DisplayType.ed133ut2=ED133UT2
 epdiy_v6.menu.DisplayType.ed133ut2.build.defines=-DCONFIG_EPD_DISPLAY_TYPE_ED133UT2 -DBOARD_HAS_PSRAM -mfix-esp32-psram-cache-issue -DCONFIG_EPD_BOARD_REVISION_V6
+epdiy_v6.menu.DisplayType.ed060xc3=ED060XC3
+epdiy_v6.menu.DisplayType.ed060xc3.build.defines=-DCONFIG_EPD_DISPLAY_TYPE_ED060XC3 -DBOARD_HAS_PSRAM -mfix-esp32-psram-cache-issue -DCONFIG_EPD_BOARD_REVISION_V6
 
 epdiy_v6.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
 epdiy_v6.menu.PartitionScheme.default.build.partitions=default
@@ -114,6 +116,11 @@ epdiy_v6.menu.DebugLevel.debug=Debug
 epdiy_v6.menu.DebugLevel.debug.build.code_debug=4
 epdiy_v6.menu.DebugLevel.verbose=Verbose
 epdiy_v6.menu.DebugLevel.verbose.build.code_debug=5
+
+epdiy_v6.menu.EraseFlash.none=Disabled
+epdiy_v6.menu.EraseFlash.none.upload.erase_cmd=
+epdiy_v6.menu.EraseFlash.all=Enabled
+epdiy_v6.menu.EraseFlash.all.upload.erase_cmd=-e
 
 ############################## Revision 5 Board ##############################
 epdiy_v5.name=EPDIY Board Revision 5
